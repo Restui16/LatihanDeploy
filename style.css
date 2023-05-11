@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.landing-page {
+    background-image: url('https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40em;
+    text-align: center;
+}
+
+
+.welcome-text {
+    position: absolute;
+    color: white;
+    margin: 0;
+    width: 100%;
+    top: 50%;
+    transform: scale(.8);
+}
+
+ul.nav {
+    list-style: none;
+    background-color: black;
+    color: white;
+    margin: 0;
+    text-align: right;
+    position: sticky;
+    top: 0;
+
+}
+
+
+
+li.logo {
+    color: white;
+    float: left;
+}
+
+li {
+    display: inline-block;
+    padding: 1em 2em;
+    color: white;
+}
+
+
+#about-me {
+    padding: 2em 0;
+}
+
+.introduction, .education, .working {
+   text-align: center;
+}
+
+.img-icon {
+    max-width: 12em;
+}
+
+.text-perkenalan {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+
+.section-2 {
+    margin-top: 5em;
+    margin-bottom: 3em;
+    width: 100%;
+}
+
+.title-portofolio {
+    padding-top: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    overflow:hidden;
+    text-align: center;
+}
+.img-portofolio {
+    max-width: 300px;
+    display: inline-block;
+    width: 90%;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+hr {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section-3 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.title-contactus{
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    display: inline-block;
+    padding: 2em 5em;
+}
+
+.inputan {
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.inputan > label {
+    font-size: 1.2em;
+}
+
+.inputan > input {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+
+.inputan > textarea {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+
+.btn-kirim {
+    width: 85%;
+    margin: 1em 0;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 0;
+}
+
+.contact-info {
+    width: 50%;
+    max-width: 400px;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.contact-icon {
+    width: 100%;
+    max-width: 2.5em;
+    margin: 3em 5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-dekstop {
+    vertical-align: middle;
+    display: inline-block;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    padding: 1.5em 0;
+    color: white;
+    text-align: center;
+}
+
+.linkedin {
+    color: #007bff;
+}
+
+.linkedin:hover {
+    color: red;
+}
+@media only screen and (min-width:600px) {
+    ul.nav {
+        text-align: right;
+    }
+}
+
